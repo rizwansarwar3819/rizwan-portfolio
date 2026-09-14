@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Rizwan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="container nav">
+    <a href="index.html" class="brand">rizwan<span class="dot">.</span>dev</a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" aria-current="page">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" aria-label="Toggle dark or light mode">🌙</button>
+      <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Get to know me</span>
+        <h2>About me</h2>
+      </div>
+
+      <div class="about-layout">
+        <aside class="avatar-block">
+          <div class="avatar-initials">RZ</div>
+          <h3>Rizwan</h3>
+          <p style="margin: 4px auto 0; font-size:0.9rem;">CS / Information Security Student</p>
+          <ul class="info-list">
+            <li><span>Based in</span> <span>Lahore, PK</span></li>
+            <li><span>Focus</span> <span>Networking &amp; Security</span></li>
+            <li><span>Status</span> <span>Open to learning</span></li>
+          </ul>
+        </aside>
+
+        <div>
+          <p style="max-width:70ch;">
+            I'm a university student in an Information Security / Computer Science program, and I learn best
+            by building things and taking them apart. My coursework spans database systems, computer networks,
+            cybersecurity, and UML design — but the parts that stick are the ones I get to build hands-on:
+            standing up a Flask app, running a real vulnerability scan in a safe lab, or mapping out a system
+            with a sequence diagram until it finally clicks.
+          </p>
+          <p style="margin-top:16px;">
+            This portfolio itself is one of those hands-on projects — a static site built from scratch with
+            HTML, CSS and JavaScript to practice front-end fundamentals: semantic structure, responsive layout,
+            and real DOM interactivity.
+          </p>
+
+          <h3 style="margin-top:44px; margin-bottom:24px;">A rough timeline</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <span class="when">Coursework</span>
+              <h3>Database Systems &amp; UML</h3>
+              <p>Working through relational database design, views, and modelling systems with UML sequence diagrams.</p>
+            </div>
+            <div class="timeline-item">
+              <span class="when">Coursework</span>
+              <h3>Computer Networks</h3>
+              <p>Studied how data moves across a network, and built a Flask-based tool to monitor packets in real time.</p>
+            </div>
+            <div class="timeline-item">
+              <span class="when">Coursework</span>
+              <h3>Cybersecurity</h3>
+              <p>Practiced identifying and testing common web vulnerabilities (SQL injection, XSS, brute force) in a controlled DVWA lab environment.</p>
+            </div>
+            <div class="timeline-item">
+              <span class="when">Now</span>
+              <h3>Web Technologies</h3>
+              <p>Building this portfolio to sharpen front-end skills — semantic HTML, CSS layout systems, and JavaScript-driven interactivity.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-row">
+    <p>© <span id="year"></span> Rizwan. Built with HTML, CSS &amp; JavaScript.</p>
+    <ul class="social-links">
+      <li><a href="#">GitHub</a></li>
+      <li><a href="#">LinkedIn</a></li>
+      <li><a href="contact.html">Email</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
