@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rizwan — Personal Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="container nav">
+    <a href="index.html" class="brand">rizwan<span class="dot">.</span>dev</a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" aria-label="Toggle dark or light mode">🌙</button>
+      <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <span class="eyebrow">About me</span>
+        <h1>Hi, I'm Rizwan.<br>I build and break web systems.</h1>
+        <p>A Computer Science / Information Security student who likes learning by doing — from wiring up a Flask app that watches network packets, to finding out exactly how a SQL injection works so I can stop one.</p>
+        <div class="hero-actions">
+          <a href="skills.html" class="btn btn-primary">See my skills</a>
+          <a href="contact.html" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="terminal">
+        <div class="terminal-bar"><span></span><span></span><span></span></div>
+        <div class="terminal-body">
+          <div class="line"><span class="prompt">rizwan@lahore</span> ~ &gt; cat about.txt</div>
+          <div class="line output" id="typed-output"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Focus areas</span>
+        <h2>What I spend most of my time on</h2>
+      </div>
+      <div class="grid grid-3">
+        <div class="card">
+          <h3>Networking</h3>
+          <p>Understanding how data actually moves — sockets, protocols, and building tools like a live packet monitor.</p>
+        </div>
+        <div class="card">
+          <h3>Web Development</h3>
+          <p>Structuring pages with semantic HTML, styling with Flexbox/Grid, and bringing interfaces to life with JavaScript.</p>
+        </div>
+        <div class="card">
+          <h3>Cybersecurity</h3>
+          <p>Testing for common vulnerabilities in a safe, controlled environment to understand how attacks — and defenses — actually work.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container card" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:20px;">
+      <div>
+        <h2 style="margin-bottom:6px;">Want the full picture?</h2>
+        <p style="margin:0;">See my background, coursework, and how I got here.</p>
+      </div>
+      <a href="about.html" class="btn btn-primary">About me →</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-row">
+    <p>© <span id="year"></span> Rizwan. Built with HTML, CSS &amp; JavaScript.</p>
+    <ul class="social-links">
+      <li><a href="#">GitHub</a></li>
+      <li><a href="#">LinkedIn</a></li>
+      <li><a href="contact.html">Email</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
