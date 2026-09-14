@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skills — Rizwan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="container nav">
+    <a href="index.html" class="brand">rizwan<span class="dot">.</span>dev</a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html" aria-current="page">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" aria-label="Toggle dark or light mode">🌙</button>
+      <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Toolkit</span>
+        <h2>What I can work with</h2>
+        <p>A snapshot of the tools and concepts I've practiced through coursework and personal projects.</p>
+      </div>
+
+      <div class="grid grid-3">
+        <div class="card skill-card">
+          <h3>HTML &amp; CSS</h3>
+          <p style="font-size:0.9rem;">Semantic markup, Flexbox/Grid layout, responsive design.</p>
+          <div class="skill-bar"><i style="width:80%;"></i></div>
+          <div class="taglist">
+            <span class="tag">semantic HTML5</span>
+            <span class="tag">Flexbox</span>
+            <span class="tag">Grid</span>
+          </div>
+        </div>
+
+        <div class="card skill-card">
+          <h3>JavaScript</h3>
+          <p style="font-size:0.9rem;">DOM manipulation, events, form validation, interactive UI.</p>
+          <div class="skill-bar"><i style="width:70%;"></i></div>
+          <div class="taglist">
+            <span class="tag">DOM</span>
+            <span class="tag">events</span>
+            <span class="tag">validation</span>
+          </div>
+        </div>
+
+        <div class="card skill-card">
+          <h3>Python &amp; Flask</h3>
+          <p style="font-size:0.9rem;">Built a packet-monitoring web app for a Computer Networks project.</p>
+          <div class="skill-bar"><i style="width:65%;"></i></div>
+          <div class="taglist">
+            <span class="tag">Flask</span>
+            <span class="tag">sockets</span>
+          </div>
+        </div>
+
+        <div class="card skill-card">
+          <h3>Databases</h3>
+          <p style="font-size:0.9rem;">Relational design, SQL, and views — coursework-driven practice.</p>
+          <div class="skill-bar"><i style="width:60%;"></i></div>
+          <div class="taglist">
+            <span class="tag">SQL</span>
+            <span class="tag">views</span>
+          </div>
+        </div>
+
+        <div class="card skill-card">
+          <h3>Cybersecurity</h3>
+          <p style="font-size:0.9rem;">Vulnerability testing in a controlled lab: SQLi, XSS, brute force.</p>
+          <div class="skill-bar"><i style="width:60%;"></i></div>
+          <div class="taglist">
+            <span class="tag">DVWA</span>
+            <span class="tag">Docker</span>
+          </div>
+        </div>
+
+        <div class="card skill-card">
+          <h3>UML &amp; Modelling</h3>
+          <p style="font-size:0.9rem;">Sequence diagrams for systems like ATMs, e-commerce, and login flows.</p>
+          <div class="skill-bar"><i style="width:70%;"></i></div>
+          <div class="taglist">
+            <span class="tag">sequence diagrams</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">More detail</span>
+        <h2>A bit more detail</h2>
+      </div>
+
+      <div>
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-1">
+            How I learned front-end development <span class="plus">+</span>
+          </button>
+          <div class="accordion-panel" id="panel-1">
+            <p>Mostly hands-on — this very site is a practice project for a Web Technologies course assignment, built without a template so I could actually understand every line of the HTML, CSS and JavaScript in it.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-2">
+            What the packet monitor project does <span class="plus">+</span>
+          </button>
+          <div class="accordion-panel" id="panel-2">
+            <p>It's a Flask-based web app built for a Computer Networks course that captures and displays live network packet information in the browser, rather than in a terminal.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-3">
+            What the security testing work involved <span class="plus">+</span>
+          </button>
+          <div class="accordion-panel" id="panel-3">
+            <p>Using DVWA (Damn Vulnerable Web Application) in a Docker container, I tested SQL injection, reflected XSS, command injection, and brute-force attacks at increasing difficulty levels to understand both the attack and the fix.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-4">
+            Why UML diagrams matter to me <span class="plus">+</span>
+          </button>
+          <div class="accordion-panel" id="panel-4">
+            <p>Before writing code for a system, sketching the sequence of interactions (like an ATM withdrawal or a login flow) helps me catch design gaps early.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-row">
+    <p>© <span id="year"></span> Rizwan. Built with HTML, CSS &amp; JavaScript.</p>
+    <ul class="social-links">
+      <li><a href="#">GitHub</a></li>
+      <li><a href="#">LinkedIn</a></li>
+      <li><a href="contact.html">Email</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
